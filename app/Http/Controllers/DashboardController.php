@@ -85,7 +85,7 @@ class DashboardController extends Controller
             $data['content'] = $board_content->content;
         }
 
-        return view('dashboard.show_board',$data);
+        return view('dashboard.create_board',$data);
     }
 
     /**
